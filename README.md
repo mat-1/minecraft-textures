@@ -1,1 +1,1 @@
-ok so basically files do stuff and you put stuff in files and theyll change but also dont change folder names unless you should
+Most of the Minecraft inventory textures including 3d textures and custom texture packs. (Most of it is closed source atm)
