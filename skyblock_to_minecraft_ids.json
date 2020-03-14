@@ -20,5 +20,33 @@
   },
   "red_gift": {
     "head": "b73a2114136b8ee4926caa51785414036a2b76e4f1668cb89d99716c421"
+  },
+  "revenant_viscera": {
+    "id": 320,
+    "name": "Revenant Viscera"
+  },
+  "tarantula_silk": {
+    "id": 30,
+    "name": "Tarantula Silk"
+  },
+  "super_compactor_3000": {
+    "id": 158,
+    "name": "Super Compactor 3000"
+  },
+  "super_egg": {
+    "id": 383,
+    "name": "Super Enchanted Egg"
+  },
+  "stock_of_stonks": {
+    "id": 339,
+    "name": "Stock of Stonks"
+  },
+  "hot_potato_book": {
+    "id": 340,
+    "name": "Hot Potato Book"
+  },
+  "golden_tooth": {
+    "id": 371,
+    "name": "Golden Tooth"
   }
 }
