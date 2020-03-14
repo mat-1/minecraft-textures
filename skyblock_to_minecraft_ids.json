@@ -2,5 +2,23 @@
   "tarantula_web": {
     "id": 287,
     "name": "Tarantula Web"
+  },
+  "green_candy": {
+    "head": "ce0622d01cfdae386cc7dd83427674b422f46d0a57e67a20607e6ca4b9af3b01"
+  },
+  "purple_candy": {
+    "head": "95d7aee4e97ad84095f55405ee1305d1fc8554c309edb12a1db863cde9c1ec80"
+  },
+  "summoning_eye": {
+    "head": "daa8fc8de6417b48d48c80b443cf5326e3d9da4dbe9b25fcd49549d96168fc0",
+  },
+  "white_gift": {
+    "head": "10f5398510b1a05afc5b201ead8bfc583e57d7202f5193b0b761fcbd0ae2",
+  },
+  "green_gift": {
+    "head": "ed97f4f44e796f79ca43097faa7b4fe91c445c76e5c26a5ad794f5e479837",
+  },
+  "red_gift": {
+    "head": "b73a2114136b8ee4926caa51785414036a2b76e4f1668cb89d99716c421",
   }
 }
