@@ -48,5 +48,17 @@
   "golden_tooth": {
     "id": 371,
     "name": "Golden Tooth"
+  },
+  "wolf_tooth": {
+    "id": 370,
+    "name": "Wolf Tooth"
+  },
+  "revenant_flesh": {
+    "id": 367,
+    "name": "Revenant Flesh"
+  },
+  "compactor": {
+    "id": 158,
+    "name": "Compactor"
   }
 }
