@@ -91,6 +91,7 @@
       301
     ],
     "textures": {
+      "leather_boots": "blaze_boots.png",
       "leather_boots_overlay": "blaze_boots.png"
     },
     "regex": "^.*blaze boots.*$",
@@ -103,6 +104,7 @@
       299
     ],
     "textures": {
+      "leather_chestplate": "blaze_chestplate.png",
       "leather_chestplate_overlay": "blaze_chestplate.png"
     },
     "regex": "^.*blaze chestplate.*$",
@@ -115,6 +117,7 @@
       300
     ],
     "textures": {
+      "leather_leggings": "blaze_leggings.png",
       "leather_leggings_overlay": "blaze_leggings.png"
     },
     "regex": "^.*blaze leggings.*$",
@@ -127,6 +130,46 @@
       301
     ],
     "textures": {
+      "leather_boots": "fblaze_boots.png",
+      "leather_boots_overlay": "fblaze_boots.png"
+    },
+    "regex": "^.*frozen blaze boots.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      299
+    ],
+    "textures": {
+      "leather_chestplate": "fblaze_chestplate.png",
+      "leather_chestplate_overlay": "fblaze_chestplate.png"
+    },
+    "regex": "^.*frozen blaze chestplate.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      300
+    ],
+    "textures": {
+      "leather_leggings": "fblaze_leggings.png",
+      "leather_leggings_overlay": "fblaze_leggings.png"
+    },
+    "regex": "^.*frozen blaze leggings.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      301
+    ],
+    "textures": {
+      "leather_boots": "cactus_boots.png",
       "leather_boots_overlay": "cactus_boots.png"
     },
     "regex": "^.*cactus boots.*$",
@@ -139,6 +182,7 @@
       299
     ],
     "textures": {
+      "leather_chestplate": "cactus_chestplate.png",
       "leather_chestplate_overlay": "cactus_chestplate.png"
     },
     "regex": "^.*cactus chestplate.*$",
@@ -151,6 +195,7 @@
       298
     ],
     "textures": {
+      "leather_helmet": "cactus_helmet.png",
       "leather_helmet_overlay": "cactus_helmet.png"
     },
     "regex": "^.*cactus helmet.*$",
@@ -163,6 +208,7 @@
       300
     ],
     "textures": {
+      "leather_leggings": "cactus_leggings.png",
       "leather_leggings_overlay": "cactus_leggings.png"
     },
     "regex": "^.*cactus leggings.*$",
@@ -836,18 +882,6 @@
   {
     "type": "item",
     "items": [
-      299
-    ],
-    "textures": {
-      "leather_chestplate_overlay": "guardian_chest.png"
-    },
-    "regex": "^.*guardian chestplate.*$",
-    "regex_lore": null,
-    "animations": {}
-  },
-  {
-    "type": "item",
-    "items": [
       null,
       300
     ],
@@ -861,13 +895,12 @@
   {
     "type": "item",
     "items": [
-      null,
-      309
+      299
     ],
     "textures": {
-      "default": "spider_boots.png"
+      "leather_chestplate_overlay": "guardian_chest.png"
     },
-    "regex": "^.*spider's boots.*$",
+    "regex": "^.*guardian chestplate.*$",
     "regex_lore": null,
     "animations": {}
   },
@@ -880,6 +913,19 @@
       "default": "skeleton_helmet.png"
     },
     "regex": "^.*skeleton's helmet.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      null,
+      309
+    ],
+    "textures": {
+      "default": "spider_boots.png"
+    },
+    "regex": "^.*spider's boots.*$",
     "regex_lore": null,
     "animations": {}
   },
@@ -1130,6 +1176,45 @@
       301
     ],
     "textures": {
+      "leather_boots_overlay": "snow_suit_boots_overlay.png",
+      "leather_boots": "snow_boots.png"
+    },
+    "regex": "^.*snow suit boots.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      299
+    ],
+    "textures": {
+      "leather_chestplate_overlay": "snow_suit_chest_overlay.png",
+      "leather_chestplate": "snow_chestplate.png"
+    },
+    "regex": "^.*snow suit chestplate.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      300
+    ],
+    "textures": {
+      "leather_leggings": "snow_leggings.png",
+      "leather_leggings_overlay": "snow_suit_leggings_overlay.png"
+    },
+    "regex": "^.*snow suit leggings.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      301
+    ],
+    "textures": {
       "leather_boots_overlay": "speedster_boots.png"
     },
     "regex": "^.*speedster boots.*$",
@@ -1319,6 +1404,120 @@
   {
     "type": "item",
     "items": [
+      301
+    ],
+    "textures": {
+      "leather_boots_overlay": "ctux_boots.png",
+      "leather_boots": "ctux_boots.png"
+    },
+    "regex": "^.*cheap tuxedo oxfords.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      299
+    ],
+    "textures": {
+      "leather_chestplate_overlay": "ctux_chestplate.png",
+      "leather_chestplate": "ctux_chestplate.png"
+    },
+    "regex": "^.*cheap tuxedo jacket.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      300
+    ],
+    "textures": {
+      "leather_leggings_overlay": "ctux_leggings.png"
+    },
+    "regex": "^.*cheap tuxedo pants.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      301
+    ],
+    "textures": {
+      "leather_boots_overlay": "etux_boots.png",
+      "leather_boots": "etux_boots.png"
+    },
+    "regex": "^.*elegant tuxedo oxfords.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      299
+    ],
+    "textures": {
+      "leather_chestplate_overlay": "etux_chestplate.png",
+      "leather_chestplate": "etux_chestplate.png"
+    },
+    "regex": "^.*elegant tuxedo jacket.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      300
+    ],
+    "textures": {
+      "leather_leggings_overlay": "etux_leggings.png"
+    },
+    "regex": "^.*elegant tuxedo pants.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      301
+    ],
+    "textures": {
+      "leather_boots_overlay": "ftux_boots.png",
+      "leather_boots": "ftux_boots.png"
+    },
+    "regex": "^.*fancy tuxedo oxfords.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      299
+    ],
+    "textures": {
+      "leather_chestplate_overlay": "ftux_chestplate.png",
+      "leather_chestplate": "ftux_chestplate.png"
+    },
+    "regex": "^.*fancy tuxedo jacket.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      300
+    ],
+    "textures": {
+      "leather_leggings_overlay": "ftux_leggings.png"
+    },
+    "regex": "^.*fancy tuxedo pants.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
       313
     ],
     "textures": {
@@ -1361,6 +1560,30 @@
       "default": "biomestick_birch.png"
     },
     "regex": "^.*birch forest biome stick.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      280
+    ],
+    "textures": {
+      "default": "biomestick_deep_ocean.png"
+    },
+    "regex": "^.*deep ocean biome stick.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      280
+    ],
+    "textures": {
+      "default": "biomestick_desert.png"
+    },
+    "regex": "^.*desert biome stick.*$",
     "regex_lore": null,
     "animations": {}
   },
@@ -1445,6 +1668,81 @@
       "default": "biomestick_taiga.png"
     },
     "regex": "^.*taiga biome stick.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      397
+    ],
+    "textures": {},
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      397
+    ],
+    "textures": {},
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      158
+    ],
+    "textures": {},
+    "regex": "^.*compactor.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      79
+    ],
+    "textures": {},
+    "regex": "^.*hilt of true ice.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      397
+    ],
+    "textures": {},
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      158
+    ],
+    "textures": {},
+    "regex": "^.*super compactor 3000.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      261
+    ],
+    "textures": {
+      "bow": "decentbow.png",
+      "bow_pulling_1": "decentbow1.png",
+      "bow_pulling_2": "decentbow2.png",
+      "bow_pulling_0": "decentbow0.png"
+    },
+    "regex": "^.*decent bow.*$",
     "regex_lore": null,
     "animations": {}
   },
@@ -1639,6 +1937,7 @@
       301
     ],
     "textures": {
+      "leather_boots": "olddb.png",
       "leather_boots_overlay": "olddb.png"
     },
     "regex": "^.*old dragon boots.*$",
@@ -1651,6 +1950,7 @@
       299
     ],
     "textures": {
+      "leather_chestplate": "olddc.png",
       "leather_chestplate_overlay": "olddc.png"
     },
     "regex": "^.*old dragon chestplate.*$",
@@ -1663,6 +1963,7 @@
       300
     ],
     "textures": {
+      "leather_leggings": "olddl.png",
       "leather_leggings_overlay": "olddl.png"
     },
     "regex": "^.*old dragon leggings.*$",
@@ -1675,6 +1976,7 @@
       301
     ],
     "textures": {
+      "leather_boots": "prodb.png",
       "leather_boots_overlay": "prodb.png"
     },
     "regex": "^.*protector dragon boots.*$",
@@ -1687,6 +1989,7 @@
       299
     ],
     "textures": {
+      "leather_chestplate": "prodc.png",
       "leather_chestplate_overlay": "prodc.png"
     },
     "regex": "^.*protector dragon chestplate.*$",
@@ -1699,6 +2002,7 @@
       300
     ],
     "textures": {
+      "leather_leggings": "prodl.png",
       "leather_leggings_overlay": "prodl.png"
     },
     "regex": "^.*protector dragon leggings.*$",
@@ -1711,6 +2015,7 @@
       301
     ],
     "textures": {
+      "leather_boots": "strdb.png",
       "leather_boots_overlay": "strdb.png"
     },
     "regex": "^.*strong dragon boots.*$",
@@ -1723,6 +2028,7 @@
       299
     ],
     "textures": {
+      "leather_chestplate": "strdc.png",
       "leather_chestplate_overlay": "strdc.png"
     },
     "regex": "^.*strong dragon chestplate.*$",
@@ -1735,6 +2041,7 @@
       300
     ],
     "textures": {
+      "leather_leggings": "strdl.png",
       "leather_leggings_overlay": "strdl.png"
     },
     "regex": "^.*strong dragon leggings.*$",
@@ -1747,6 +2054,7 @@
       301
     ],
     "textures": {
+      "leather_boots": "supdb.png",
       "leather_boots_overlay": "supdb.png"
     },
     "regex": "^.*superior dragon boots.*$",
@@ -1759,6 +2067,7 @@
       299
     ],
     "textures": {
+      "leather_chestplate": "supdc.png",
       "leather_chestplate_overlay": "supdc.png"
     },
     "regex": "^.*superior dragon chestplate.*$",
@@ -1771,6 +2080,7 @@
       300
     ],
     "textures": {
+      "leather_leggings": "supdl.png",
       "leather_leggings_overlay": "supdl.png"
     },
     "regex": "^.*superior dragon leggings.*$",
@@ -1783,6 +2093,7 @@
       301
     ],
     "textures": {
+      "leather_boots": "unsdb.png",
       "leather_boots_overlay": "unsdb.png"
     },
     "regex": "^.*unstable dragon boots.*$",
@@ -1795,6 +2106,7 @@
       299
     ],
     "textures": {
+      "leather_chestplate": "unsdc.png",
       "leather_chestplate_overlay": "unsdc.png"
     },
     "regex": "^.*unstable dragon chestplate.*$",
@@ -1807,6 +2119,7 @@
       300
     ],
     "textures": {
+      "leather_leggings": "unsdl.png",
       "leather_leggings_overlay": "unsdl.png"
     },
     "regex": "^.*unstable dragon leggings.*$",
@@ -1819,6 +2132,7 @@
       301
     ],
     "textures": {
+      "leather_boots": "wisdb.png",
       "leather_boots_overlay": "wisdb.png"
     },
     "regex": "^.*wise dragon boots.*$",
@@ -1831,6 +2145,7 @@
       299
     ],
     "textures": {
+      "leather_chestplate": "wisdc.png",
       "leather_chestplate_overlay": "wisdc.png"
     },
     "regex": "^.*wise dragon chestplate.*$",
@@ -1843,6 +2158,7 @@
       300
     ],
     "textures": {
+      "leather_leggings": "wisdl.png",
       "leather_leggings_overlay": "wisdl.png"
     },
     "regex": "^.*wise dragon leggings.*$",
@@ -1855,6 +2171,7 @@
       301
     ],
     "textures": {
+      "leather_boots": "youdb.png",
       "leather_boots_overlay": "youdb.png"
     },
     "regex": "^.*young dragon boots.*$",
@@ -1867,6 +2184,7 @@
       299
     ],
     "textures": {
+      "leather_chestplate": "youdc.png",
       "leather_chestplate_overlay": "youdc.png"
     },
     "regex": "^.*young dragon chestplate.*$",
@@ -1879,9 +2197,3755 @@
       300
     ],
     "textures": {
+      "leather_leggings": "youdl.png",
       "leather_leggings_overlay": "youdl.png"
     },
     "regex": "^.*young dragon leggings.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Aiming1.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Aiming2.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Aiming3.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Aiming4.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Aiming5.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Aiming6.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Angler1.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Angler2.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Angler3.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Angler4.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Angler5.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Angler6.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Aqua_Affinity1.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Bane_of_Arthropods1.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Bane_of_Arthropods2.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Bane_of_Arthropods3.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Bane_of_Arthropods4.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Bane_of_Arthropods5.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Bane_of_Arthropods6.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Blast_Protection1.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Blast_Protection2.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Blast_Protection3.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Blast_Protection4.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Blast_Protection5.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Blast_Protection6.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Blessing1.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Blessing2.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Blessing3.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Blessing4.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Blessing5.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Blessing6.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Caster1.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Caster2.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Caster3.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Caster4.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Caster5.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Caster6.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Cleave1.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Cleave2.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Cleave3.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Cleave4.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Cleave5.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Cleave6.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Critical1.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Critical2.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Critical3.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Critical4.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Critical5.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Critical6.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "cubism.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Cubism1.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Cubism2.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Cubism3.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Cubism4.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Cubism5.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Depth_Strider1.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Depth_Strider2.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Depth_Strider3.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Depth_Strider4.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Depth_Strider5.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Depth_Strider6.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Dragon_Hunter1.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Dragon_Hunter2.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Dragon_Hunter3.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Dragon_Hunter4.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Dragon_Hunter5.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Dragon_Hunter6.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Efficiency1.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Efficiency2.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Efficiency3.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Efficiency4.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Efficiency5.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Efficiency6.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Ender_Slayer1.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Ender_Slayer2.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Ender_Slayer3.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Ender_Slayer4.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Ender_Slayer5.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Ender_Slayer6.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Execute1.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Execute2.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Execute3.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Execute4.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Execute5.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Experience1.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Experience2.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Experience3.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Experience4.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Experience5.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Experience6.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Feather_Falling1.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Feather_Falling2.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Feather_Falling3.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Feather_Falling4.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Feather_Falling5.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Feather_Falling6.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "fire_aspect.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Fire_Aspect1.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Fire_Aspect2.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Fire_Aspect3.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Fire_Aspect4.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Fire_Aspect5.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Fire_Aspect6.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Fire_Protection1.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Fire_Protection2.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Fire_Protection3.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Fire_Protection4.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Fire_Protection5.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Fire_Protection6.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "First_Strike1.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "First_Strike2.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "First_Strike3.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "First_Strike4.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "First_Strike5.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "First_Strike6.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Flame1.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Fortune1.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Fortune2.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Fortune3.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Fortune4.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Fortune5.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Fortune6.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Frail1.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Frail2.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Frail3.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Frail4.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Frail5.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Frail6.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Frost_Walker1.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Frost_Walker2.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Frost_Walker3.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Frost_Walker4.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Frost_Walker5.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Frost_Walker6.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Giant_Killer1.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Giant_Killer2.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Giant_Killer3.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Giant_Killer4.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Giant_Killer5.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Giant_Killer6.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Growth1.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Growth2.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Growth3.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Growth4.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Growth5.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Growth6.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Harvesting1.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Harvesting2.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Harvesting3.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Harvesting4.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Harvesting5.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Harvesting6.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Impaling1.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Impaling2.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Impaling3.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Impaling4.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Impaling5.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Impaling6.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Infinite_Quiver1.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Infinite_Quiver2.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Infinite_Quiver3.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Infinite_Quiver4.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Infinite_Quiver5.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Infinite_Quiver6.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Knockback1.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "knockback2.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Knockback3.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Knockback4.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Knockback5.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Knockback6.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Lethality1.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Lethality2.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Lethality3.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Lethality4.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Lethality5.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Lethality6.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Life_Steal1.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Life_Steal2.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Life_Steal3.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Life_Steal4.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Life_Steal5.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Life_Steal6.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Looting2.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Looting3.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Looting4.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Looting5.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Looting6.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Luck1.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Luck2.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Luck3.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Luck4.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Luck5.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Luck6.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Luck_of_the_Sea1.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Luck_of_the_Sea2.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Luck_of_the_Sea3.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Luck_of_the_Sea4.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Luck_of_the_Sea5.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Luck_of_the_Sea6.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Lure1.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Lure2.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Lure3.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Lure4.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Lure5.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Lure6.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Magnet1.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Magnet2.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Magnet3.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Magnet4.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Magnet5.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Magnet6.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Piercing1.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Power1.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Power2.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Power3.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Power4.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Power5.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Power6.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Projectile_Protection1.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Projectile_Protection2.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Projectile_Protection3.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Projectile_Protection4.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Projectile_Protection5.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Projectile_Protection6.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Protection1.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Protection2.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Protection3.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Protection4.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Protection5.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Protection6.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Punch1.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Punch2.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Punch3.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Punch4.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Punch5.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Punch6.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Rainbow1.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Respiration1.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Respiration2.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Respiration3.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Respiration4.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Respiration5.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Respiration6.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Scavenger1.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Scavenger2.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Scavenger3.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Scavenger4.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Scavenger5.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Scavenger6.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Sharpness1.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Sharpness2.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Sharpness3.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Sharpness4.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Sharpness5.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Sharpness6.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Silk_Touch1.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Smelting_Touch1.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Smite1.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Smite2.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Smite3.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Smite4.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Smite5.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Smite6.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Snipe1.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Snipe2.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Snipe3.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Snipe4.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Snipe5.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Snipe6.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Spiked_Hook1.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Spiked_Hook2.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Spiked_Hook3.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Spiked_Hook4.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Spiked_Hook5.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Spiked_Hook6.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Suagar_Rush1.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Suagar_Rush2.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Suagar_Rush3.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Suagar_Rush4.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Suagar_Rush5.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Suagar_Rush6.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Telekinesis1.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Thorns1.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Thorns2.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Thorns3.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Thorns4.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Thorns5.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Thorns6.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Thunderlord1.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Thunderlord2.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Thunderlord3.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Thunderlord4.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Thunderlord5.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Thunderlord6.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "True_Protection1.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "True_Protection2.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "True_Protection3.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "True_Protection4.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "True_Protection5.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Vampirism1.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Vampirism2.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Vampirism3.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Vampirism4.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Vampirism5.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Vampirism6.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Venomous1.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Venomous2.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Venomous3.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Venomous4.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Venomous5.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      403
+    ],
+    "textures": {
+      "default": "Venomous6.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      346
+    ],
+    "textures": {
+      "fishing_rod": "auger_rod.png",
+      "fishing_rod_cast": "auger_rod_cast.png"
+    },
+    "regex": "^.*auger rod.*$",
     "regex_lore": null,
     "animations": {}
   },
@@ -1921,6 +5985,19 @@
       "fishing_rod_cast": "ghon.png"
     },
     "regex": "^.*grappling hook.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      346
+    ],
+    "textures": {
+      "fishing_rod": "ice_rod.png",
+      "fishing_rod_cast": "ice_rod_cast.png"
+    },
+    "regex": "^.*ice rod.*$",
     "regex_lore": null,
     "animations": {}
   },
@@ -2030,6 +6107,32 @@
   {
     "type": "item",
     "items": [
+      346
+    ],
+    "textures": {
+      "fishing_rod": "winter_rod.png",
+      "fishing_rod_cast": "winter_rod_cast.png"
+    },
+    "regex": "^.*winter rod.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      346
+    ],
+    "textures": {
+      "fishing_rod": "yeti_rod.png",
+      "fishing_rod_cast": "yeti_rod_cast.png"
+    },
+    "regex": "^.*yeti rod.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
       351
     ],
     "textures": {
@@ -2060,6 +6163,18 @@
       "default": "bridge_egg.png"
     },
     "regex": "^.*bridge egg.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      154
+    ],
+    "textures": {
+      "default": "budget_hopper.png"
+    },
+    "regex": "^.*budget hopper.*$",
     "regex_lore": null,
     "animations": {}
   },
@@ -2126,12 +6241,65 @@
   {
     "type": "item",
     "items": [
+      154
+    ],
+    "textures": {
+      "default": "enchanted_hopper.png"
+    },
+    "regex": "^.*enchanted hopper.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      327
+    ],
+    "textures": {
+      "default": "enchanted_lava_bucket.gif"
+    },
+    "regex": "^.*enchanted lava bucket.*$",
+    "regex_lore": null,
+    "animations": {
+      "default": {
+        "interpolate": true,
+        "frametime": 4
+      }
+    }
+  },
+  {
+    "type": "item",
+    "items": [
+      351
+    ],
+    "textures": {
+      "default": "essence.png"
+    },
+    "regex": "^.*true essence.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
       403
     ],
     "textures": {
       "default": "exp_art.png"
     },
     "regex": "^.*experience artifact.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      349
+    ],
+    "textures": {
+      "default": "FlakeTheFish.png"
+    },
+    "regex": "^.*flake the fish.*$",
     "regex_lore": null,
     "animations": {}
   },
@@ -2150,12 +6318,48 @@
   {
     "type": "item",
     "items": [
+      284
+    ],
+    "textures": {
+      "default": "flyswatter.png"
+    },
+    "regex": "^.*fly swatter.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
       263
     ],
     "textures": {
       "default": "foul_flesh.png"
     },
     "regex": "^.*foul flesh.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      332
+    ],
+    "textures": {
+      "default": "frosty_snowball.png"
+    },
+    "regex": "^.*frosty snowball.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      349
+    ],
+    "textures": {
+      "default": "gift_fish.png"
+    },
+    "regex": "^.*gift the fish.*$",
     "regex_lore": null,
     "animations": {}
   },
@@ -2198,6 +6402,18 @@
   {
     "type": "item",
     "items": [
+      349
+    ],
+    "textures": {
+      "default": "grizzly_bait.png"
+    },
+    "regex": "^.*grizzly bait.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
       340
     ],
     "textures": {
@@ -2222,6 +6438,23 @@
   {
     "type": "item",
     "items": [
+      326
+    ],
+    "textures": {
+      "default": "magical_water_bucket.gif"
+    },
+    "regex": "^.*magical water bucket.*$",
+    "regex_lore": null,
+    "animations": {
+      "default": {
+        "interpolate": true,
+        "frametime": 4
+      }
+    }
+  },
+  {
+    "type": "item",
+    "items": [
       282
     ],
     "textures": {
@@ -2235,6 +6468,18 @@
         "frametime": 2
       }
     }
+  },
+  {
+    "type": "item",
+    "items": [
+      287
+    ],
+    "textures": {
+      "default": "melody_hair.png"
+    },
+    "regex": "^.*melody.*s hair.*$",
+    "regex_lore": null,
+    "animations": {}
   },
   {
     "type": "item",
@@ -2275,12 +6520,48 @@
   {
     "type": "item",
     "items": [
+      318
+    ],
+    "textures": {
+      "default": "pebble.png"
+    },
+    "regex": "^.*polished pebble.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      154
+    ],
+    "textures": {
+      "default": "perfect_hopper.png"
+    },
+    "regex": "^.*perfect hopper.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
       344
     ],
     "textures": {
       "default": "platform_egg.png"
     },
     "regex": "^.*platform egg.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      262
+    ],
+    "textures": {
+      "default": "quiver.png"
+    },
+    "regex": "^.*quiver arrow.*$",
     "regex_lore": null,
     "animations": {}
   },
@@ -2323,6 +6604,18 @@
   {
     "type": "item",
     "items": [
+      175
+    ],
+    "textures": {
+      "default": "rose_bouquet.png"
+    },
+    "regex": "^.*rose bouquet.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
       399
     ],
     "textures": {
@@ -2341,6 +6634,18 @@
       "default": "scythe_blade.png"
     },
     "regex": "^.*scythe blade.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      349
+    ],
+    "textures": {
+      "default": "Shrimp.png"
+    },
+    "regex": "^.*shrimp the fish.*$",
     "regex_lore": null,
     "animations": {}
   },
@@ -2379,6 +6684,23 @@
     "regex": null,
     "regex_lore": "Lore.0",
     "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      383
+    ],
+    "textures": {
+      "default": "super_egg.gif"
+    },
+    "regex": "^.*super enchanted egg.*$",
+    "regex_lore": null,
+    "animations": {
+      "default": {
+        "interpolate": true,
+        "frametime": 2
+      }
+    }
   },
   {
     "type": "item",
@@ -2431,6 +6753,18 @@
   {
     "type": "item",
     "items": [
+      280
+    ],
+    "textures": {
+      "default": "weather_stick.png"
+    },
+    "regex": "^.*weather stick.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
       154
     ],
     "textures": {
@@ -2443,12 +6777,72 @@
   {
     "type": "item",
     "items": [
+      352
+    ],
+    "textures": {
+      "default": "wolf_catalyst.png"
+    },
+    "regex": "^.*wolf catalyst.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
       370
     ],
     "textures": {
       "default": "wolf_tooth.png"
     },
     "regex": "^.*wolf tooth.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      371
+    ],
+    "textures": {
+      "default": "yellow_rock.png"
+    },
+    "regex": "^.*yellow rock.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      371
+    ],
+    "textures": {
+      "default": "yellow_rock_love.png"
+    },
+    "regex": "^.*yellow rock of love.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      371
+    ],
+    "textures": {
+      "default": "yellow_rock_official.png"
+    },
+    "regex": "^.*very official yellow rock.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      371
+    ],
+    "textures": {
+      "default": "yellow_rock_shiny.png"
+    },
+    "regex": "^.*shiny yellow rock.*$",
     "regex_lore": null,
     "animations": {}
   },
@@ -2955,6 +7349,372 @@
   {
     "type": "item",
     "items": [
+      313
+    ],
+    "textures": {
+      "default": "pb11.png"
+    },
+    "regex": "^.*perfect boots \\\\u002d tier xi.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      311
+    ],
+    "textures": {
+      "default": "pc11.png"
+    },
+    "regex": "^.*perfect chestplate \\\\u002d tier xi.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      310
+    ],
+    "textures": {
+      "default": "ph11.png"
+    },
+    "regex": "^.*perfect helmet \\\\u002d tier xi.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      312
+    ],
+    "textures": {
+      "default": "pl11.png"
+    },
+    "regex": "^.*perfect leggings \\\\u002d tier xi.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      313
+    ],
+    "textures": {
+      "default": "pb12.png"
+    },
+    "regex": "^.*perfect boots \\\\u002d tier xii.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      311
+    ],
+    "textures": {
+      "default": "pc12.png"
+    },
+    "regex": "^.*perfect chestplate \\\\u002d tier xii.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      310
+    ],
+    "textures": {
+      "default": "ph12.png"
+    },
+    "regex": "^.*perfect helmet \\\\u002d tier xii.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      312
+    ],
+    "textures": {
+      "default": "pl12.png"
+    },
+    "regex": "^.*perfect leggings \\\\u002d tier xii.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      397
+    ],
+    "textures": {},
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      397
+    ],
+    "textures": {},
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      397
+    ],
+    "textures": {},
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      397
+    ],
+    "textures": {},
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      397
+    ],
+    "textures": {},
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      397
+    ],
+    "textures": {},
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      397
+    ],
+    "textures": {},
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      397
+    ],
+    "textures": {},
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      397
+    ],
+    "textures": {},
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      397
+    ],
+    "textures": {},
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      397
+    ],
+    "textures": {},
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      397
+    ],
+    "textures": {},
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      397
+    ],
+    "textures": {},
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      397
+    ],
+    "textures": {},
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      397
+    ],
+    "textures": {},
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      397
+    ],
+    "textures": {},
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      397
+    ],
+    "textures": {},
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      397
+    ],
+    "textures": {},
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      397
+    ],
+    "textures": {},
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      397
+    ],
+    "textures": {},
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      397
+    ],
+    "textures": {},
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      397
+    ],
+    "textures": {},
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      397
+    ],
+    "textures": {},
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      397
+    ],
+    "textures": {},
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      397
+    ],
+    "textures": {},
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      397
+    ],
+    "textures": {},
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      397
+    ],
+    "textures": {},
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
       276
     ],
     "textures": {
@@ -2986,22 +7746,11 @@
       276
     ],
     "textures": {
-      "default": "aote.gif"
+      "default": "aotenew.png"
     },
     "regex": "^.*aspect of the end.*$",
     "regex_lore": null,
-    "animations": {
-      "default": {
-        "interpolate": true,
-        "frametime": 5,
-        "frames": [
-          0,
-          1,
-          2,
-          3
-        ]
-      }
-    }
+    "animations": {}
   },
   {
     "type": "item",
@@ -3114,12 +7863,36 @@
   {
     "type": "item",
     "items": [
+      292
+    ],
+    "textures": {
+      "default": "frozen_scythe.png"
+    },
+    "regex": "^.*frozen scythe.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
       267
     ],
     "textures": {
       "default": "golem_sword.png"
     },
     "regex": "^.*golem sword.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      267
+    ],
+    "textures": {
+      "default": "hunter_knife.png"
+    },
+    "regex": "^.*hunter knife.*$",
     "regex_lore": null,
     "animations": {}
   },
@@ -3214,12 +7987,36 @@
   {
     "type": "item",
     "items": [
+      283
+    ],
+    "textures": {
+      "default": "pooch_sword.png"
+    },
+    "regex": "^.*pooch sword.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
       409
     ],
     "textures": {
       "default": "prismarine.png"
     },
     "regex": "^.*prismarine blade.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      258
+    ],
+    "textures": {
+      "default": "raider_axe.png"
+    },
+    "regex": "^.*raider axe.*$",
     "regex_lore": null,
     "animations": {}
   },
@@ -3364,12 +8161,84 @@
   {
     "type": "item",
     "items": [
+      268
+    ],
+    "textures": {
+      "default": "tactician.png"
+    },
+    "regex": "^.*tactician.*s sword.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      268
+    ],
+    "textures": {
+      "default": "taotj.png"
+    },
+    "regex": "^.*thick aspect of the jerry.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      268
+    ],
+    "textures": {
+      "default": "tscorpion_foil.png"
+    },
+    "regex": "^.*thick scorpion foil.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      268
+    ],
+    "textures": {
+      "default": "ttactician.png"
+    },
+    "regex": "^.*thick tactician.*s sword.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      268
+    ],
+    "textures": {
+      "default": "thick_wooden_sword.png"
+    },
+    "regex": "^.*thick wooden sword.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
       267
     ],
     "textures": {
       "default": "undead_sword.png"
     },
     "regex": "^.*undead sword.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      267
+    ],
+    "textures": {
+      "default": "yeti_sword.png"
+    },
+    "regex": "^.*yeti sword.*$",
     "regex_lore": null,
     "animations": {}
   },
@@ -3424,6 +8293,18 @@
   {
     "type": "item",
     "items": [
+      257
+    ],
+    "textures": {
+      "default": "promising_pickaxe.png"
+    },
+    "regex": "^.*promising pickaxe.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
       258
     ],
     "textures": {
@@ -3454,6 +8335,18 @@
       "default": "rookie_hoe.png"
     },
     "regex": "^.*rookie hoe.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      274
+    ],
+    "textures": {
+      "default": "rookie_pickaxe.png"
+    },
+    "regex": "^.*rookie pickaxe.*$",
     "regex_lore": null,
     "animations": {}
   },
@@ -3492,6 +8385,23 @@
     "regex": "^.*sweet axe.*$",
     "regex_lore": null,
     "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      286
+    ],
+    "textures": {
+      "default": "Treecapitator.gif"
+    },
+    "regex": "^.*treecapitator.*$",
+    "regex_lore": null,
+    "animations": {
+      "default": {
+        "interpolate": true,
+        "frametime": 3
+      }
+    }
   },
   {
     "type": "item",
@@ -3598,6 +8508,18 @@
       "default": "null_pane.png"
     },
     "regex": "^.* $",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      352
+    ],
+    "textures": {
+      "default": "pet.png"
+    },
+    "regex": "^.*pets$",
     "regex_lore": null,
     "animations": {}
   },
