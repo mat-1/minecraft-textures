@@ -1724,6 +1724,26 @@
   {
     "type": "item",
     "items": [
+      397
+    ],
+    "textures": {},
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      397
+    ],
+    "textures": {},
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
       158
     ],
     "textures": {},
@@ -6544,6 +6564,366 @@
   {
     "type": "item",
     "items": [
+      264
+    ],
+    "textures": {
+      "default": "allxp.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      370
+    ],
+    "textures": {
+      "default": "big_teeth.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      267
+    ],
+    "textures": {
+      "default": "combat_xp.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      267
+    ],
+    "textures": {
+      "default": "combat_xp_epic.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      267
+    ],
+    "textures": {
+      "default": "combat_xp_rare.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      267
+    ],
+    "textures": {
+      "default": "combat_xp_uncommon.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      351
+    ],
+    "textures": {
+      "default": "exp_core.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      37
+    ],
+    "textures": {
+      "default": "exp_share.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      292
+    ],
+    "textures": {
+      "default": "farming_xp.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      292
+    ],
+    "textures": {
+      "default": "farming_xp_rare.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      349
+    ],
+    "textures": {
+      "default": "fishing_xp.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      349
+    ],
+    "textures": {
+      "default": "fishing_xp_epic.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      349
+    ],
+    "textures": {
+      "default": "fishing_xp_rare.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      349
+    ],
+    "textures": {
+      "default": "fishing_xp_uncommon.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      258
+    ],
+    "textures": {
+      "default": "foraging_xp.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      258
+    ],
+    "textures": {
+      "default": "foraging_xp_epic.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      258
+    ],
+    "textures": {
+      "default": "foraging_xp_rare.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      391
+    ],
+    "textures": {
+      "default": "greater_candy.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      410
+    ],
+    "textures": {
+      "default": "hardened_scales.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      265
+    ],
+    "textures": {
+      "default": "iron_claws.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      111
+    ],
+    "textures": {
+      "default": "lucky_clover.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      351
+    ],
+    "textures": {
+      "default": "lucky_core.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      257
+    ],
+    "textures": {
+      "default": "mining_xp.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      257
+    ],
+    "textures": {
+      "default": "mining_xp_rare.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      409
+    ],
+    "textures": {
+      "default": "sharpened_claws.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      391
+    ],
+    "textures": {
+      "default": "simple_candy.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      396
+    ],
+    "textures": {
+      "default": "superb_candy.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      340
+    ],
+    "textures": {
+      "default": "textbook.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      154
+    ],
+    "textures": {
+      "default": "tier_boost.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      351
+    ],
+    "textures": {
+      "default": "tier_boost_core.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
       344
     ],
     "textures": {
@@ -7715,6 +8095,156 @@
   {
     "type": "item",
     "items": [
+      397
+    ],
+    "textures": {},
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      397
+    ],
+    "textures": {},
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      397
+    ],
+    "textures": {},
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      397
+    ],
+    "textures": {},
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      397
+    ],
+    "textures": {},
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      397
+    ],
+    "textures": {},
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      397
+    ],
+    "textures": {},
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      397
+    ],
+    "textures": {},
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      397
+    ],
+    "textures": {},
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      397
+    ],
+    "textures": {},
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      397
+    ],
+    "textures": {},
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      397
+    ],
+    "textures": {},
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      397
+    ],
+    "textures": {},
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      397
+    ],
+    "textures": {},
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      397
+    ],
+    "textures": {},
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
       276
     ],
     "textures": {
@@ -8392,7 +8922,7 @@
       286
     ],
     "textures": {
-      "default": "Treecapitator.gif"
+      "default": "treecapitator.gif"
     },
     "regex": "^.*treecapitator.*$",
     "regex_lore": null,
@@ -8454,12 +8984,534 @@
   {
     "type": "item",
     "items": [
+      321
+    ],
+    "textures": {
+      "default": "col.png"
+    },
+    "regex": "^.*collection.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
       264
     ],
     "textures": {
       "default": "prof.png"
     },
     "regex": "^.*co-op request$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      58
+    ],
+    "textures": {},
+    "regex": "^.*\\\\u00a7acrafting table.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      130
+    ],
+    "textures": {},
+    "regex": "^.*\\\\u00a7aender chest.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      351
+    ],
+    "textures": {
+      "default": "paperoff.png"
+    },
+    "regex": "^.*advanced mode.*$",
+    "regex_lore": "Lore",
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      351
+    ],
+    "textures": {
+      "default": "paperon.png"
+    },
+    "regex": "^.*advanced mode.*$",
+    "regex_lore": "Lore",
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      339
+    ],
+    "textures": {
+      "default": "scrolls/barn.png"
+    },
+    "regex": null,
+    "regex_lore": "Lore",
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      395
+    ],
+    "textures": {
+      "default": "scrolls/barn.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      339
+    ],
+    "textures": {
+      "default": "scrolls/blaze.png"
+    },
+    "regex": null,
+    "regex_lore": "Lore",
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      395
+    ],
+    "textures": {
+      "default": "scrolls/nether.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      339
+    ],
+    "textures": {
+      "default": "scrolls/castle.png"
+    },
+    "regex": "^.*castle.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      395
+    ],
+    "textures": {
+      "default": "scrolls/castle.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      339
+    ],
+    "textures": {
+      "default": "scrolls/crypt.png"
+    },
+    "regex": "^.*crypts.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      395
+    ],
+    "textures": {
+      "default": "scrolls/crypt.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      339
+    ],
+    "textures": {
+      "default": "scrolls/da.png"
+    },
+    "regex": null,
+    "regex_lore": "Lore",
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      395
+    ],
+    "textures": {
+      "default": "scrolls/da.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      339
+    ],
+    "textures": {
+      "default": "scrolls/deep.png"
+    },
+    "regex": null,
+    "regex_lore": "Lore",
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      395
+    ],
+    "textures": {
+      "default": "scrolls/deep.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      339
+    ],
+    "textures": {
+      "default": "scrolls/drag.png"
+    },
+    "regex": null,
+    "regex_lore": "Lore",
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      395
+    ],
+    "textures": {
+      "default": "scrolls/drag.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      339
+    ],
+    "textures": {
+      "default": "scrolls/end.png"
+    },
+    "regex": null,
+    "regex_lore": "Lore",
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      395
+    ],
+    "textures": {
+      "default": "scrolls/end.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      397
+    ],
+    "textures": {},
+    "regex": "^.*fast travel.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      339
+    ],
+    "textures": {
+      "default": "scrolls/gold.png"
+    },
+    "regex": null,
+    "regex_lore": "Lore",
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      395
+    ],
+    "textures": {
+      "default": "scrolls/gold.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      339
+    ],
+    "textures": {
+      "default": "scrolls/howl.png"
+    },
+    "regex": null,
+    "regex_lore": "Lore",
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      395
+    ],
+    "textures": {
+      "default": "scrolls/howl.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      339
+    ],
+    "textures": {
+      "default": "scrolls/hub.png"
+    },
+    "regex": "^.*skyblock hub.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      339
+    ],
+    "textures": {
+      "default": "scrolls/jungle.png"
+    },
+    "regex": "^.*jungle.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      395
+    ],
+    "textures": {
+      "default": "scrolls/jungle.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      339
+    ],
+    "textures": {
+      "default": "scrolls/magma.png"
+    },
+    "regex": null,
+    "regex_lore": "Lore",
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      395
+    ],
+    "textures": {
+      "default": "scrolls/magma.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      339
+    ],
+    "textures": {
+      "default": "scrolls/mush.png"
+    },
+    "regex": null,
+    "regex_lore": "Lore",
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      395
+    ],
+    "textures": {
+      "default": "scrolls/mush.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      339
+    ],
+    "textures": {
+      "default": "scrolls/nest.png"
+    },
+    "regex": null,
+    "regex_lore": "Lore",
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      395
+    ],
+    "textures": {
+      "default": "scrolls/nest.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      339
+    ],
+    "textures": {
+      "default": "scrolls/nether.png"
+    },
+    "regex": null,
+    "regex_lore": "Lore",
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      395
+    ],
+    "textures": {
+      "default": "scrolls/nether.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      395
+    ],
+    "textures": {
+      "default": "paperoff.png"
+    },
+    "regex": "^.*paper icons.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      358
+    ],
+    "textures": {
+      "default": "paperon.png"
+    },
+    "regex": "^.*paper icons.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      339
+    ],
+    "textures": {
+      "default": "scrolls/park.png"
+    },
+    "regex": null,
+    "regex_lore": "Lore",
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      395
+    ],
+    "textures": {
+      "default": "scrolls/park.png"
+    },
+    "regex": null,
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      339
+    ],
+    "textures": {
+      "default": "scrolls/pi.png"
+    },
+    "regex": null,
+    "regex_lore": "Lore",
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      339
+    ],
+    "textures": {
+      "default": "scrolls/spider.png"
+    },
+    "regex": null,
+    "regex_lore": "Lore",
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      395
+    ],
+    "textures": {
+      "default": "scrolls/spider.png"
+    },
+    "regex": null,
     "regex_lore": null,
     "animations": {}
   },
@@ -8484,6 +9536,78 @@
       "default": "invi.png"
     },
     "regex": "^.*invite to island$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      160
+    ],
+    "textures": {
+      "default": "fuel.png"
+    },
+    "regex": "^.*fuel$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      160
+    ],
+    "textures": {
+      "default": "hopp.png"
+    },
+    "regex": "^.*automated shipping$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      76
+    ],
+    "textures": {
+      "default": "ideal.png"
+    },
+    "regex": "^.*ideal layout$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      160
+    ],
+    "textures": {
+      "default": "skin.png"
+    },
+    "regex": "^.*minion skin slot$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      266
+    ],
+    "textures": {
+      "default": "tierup.png"
+    },
+    "regex": "^.*next tier$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      160
+    ],
+    "textures": {
+      "default": "upgr.png"
+    },
+    "regex": "^.*upgrade slot$",
     "regex_lore": null,
     "animations": {}
   },
@@ -8586,6 +9710,18 @@
   {
     "type": "item",
     "items": [
+      154
+    ],
+    "textures": {
+      "default": "sell.png"
+    },
+    "regex": "^.*sell item.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
       76
     ],
     "textures": {
@@ -8593,6 +9729,282 @@
     },
     "regex": "^.*settings$",
     "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      276
+    ],
+    "textures": {
+      "default": "skills.png"
+    },
+    "regex": "^.*your skills.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      371
+    ],
+    "textures": {
+      "default": "bossdrops.png"
+    },
+    "regex": "^.*boss drops$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      367
+    ],
+    "textures": {
+      "default": "icond.png"
+    },
+    "regex": "^.*slayer quest complete.*$",
+    "regex_lore": "Lore",
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      367
+    ],
+    "textures": {
+      "default": "icon.png"
+    },
+    "regex": "^.*ongoing slayer quest$",
+    "regex_lore": "Lore",
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      367
+    ],
+    "textures": {
+      "default": "icon.png"
+    },
+    "regex": "^.*revenant horror.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      367
+    ],
+    "textures": {
+      "default": "revt1.png"
+    },
+    "regex": "^.*revenant horror.*$",
+    "regex_lore": "Lore",
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      367
+    ],
+    "textures": {
+      "default": "revt2.png"
+    },
+    "regex": "^.*revenant horror.*$",
+    "regex_lore": "Lore",
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      367
+    ],
+    "textures": {
+      "default": "revt3.png"
+    },
+    "regex": "^.*revenant horror.*$",
+    "regex_lore": "Lore",
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      367
+    ],
+    "textures": {
+      "default": "revt4.png"
+    },
+    "regex": "^.*revenant horror.*$",
+    "regex_lore": "Lore",
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      423
+    ],
+    "textures": {
+      "default": "icond.png"
+    },
+    "regex": "^.*slayer quest complete.*$",
+    "regex_lore": "Lore",
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      423
+    ],
+    "textures": {
+      "default": "icon.png"
+    },
+    "regex": "^.*ongoing slayer quest$",
+    "regex_lore": "Lore",
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      423
+    ],
+    "textures": {
+      "default": "icon.png"
+    },
+    "regex": "^.*packmaster.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      423
+    ],
+    "textures": {
+      "default": "sven1.png"
+    },
+    "regex": "^.*packmaster.*$",
+    "regex_lore": "Lore",
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      423
+    ],
+    "textures": {
+      "default": "sven2.png"
+    },
+    "regex": "^.*packmaster.*$",
+    "regex_lore": "Lore",
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      423
+    ],
+    "textures": {
+      "default": "sven3.png"
+    },
+    "regex": "^.*packmaster.*$",
+    "regex_lore": "Lore",
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      423
+    ],
+    "textures": {
+      "default": "sven4.png"
+    },
+    "regex": "^.*packmaster.*$",
+    "regex_lore": "Lore",
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      30
+    ],
+    "textures": {
+      "default": "icond.png"
+    },
+    "regex": "^.*slayer quest complete.*$",
+    "regex_lore": "Lore",
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      30
+    ],
+    "textures": {
+      "default": "icon.png"
+    },
+    "regex": "^.*ongoing slayer quest$",
+    "regex_lore": "Lore",
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      30
+    ],
+    "textures": {
+      "default": "icon.png"
+    },
+    "regex": "^.*broodfather.*$",
+    "regex_lore": null,
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      30
+    ],
+    "textures": {
+      "default": "tara1.png"
+    },
+    "regex": "^.*broodfather.*$",
+    "regex_lore": "Lore",
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      30
+    ],
+    "textures": {
+      "default": "tara2.png"
+    },
+    "regex": "^.*broodfather.*$",
+    "regex_lore": "Lore",
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      30
+    ],
+    "textures": {
+      "default": "tara3.png"
+    },
+    "regex": "^.*broodfather.*$",
+    "regex_lore": "Lore",
+    "animations": {}
+  },
+  {
+    "type": "item",
+    "items": [
+      30
+    ],
+    "textures": {
+      "default": "tara4.png"
+    },
+    "regex": "^.*broodfather.*$",
+    "regex_lore": "Lore",
     "animations": {}
   },
   {
